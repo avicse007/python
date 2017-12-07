@@ -1,0 +1,17 @@
+#Keeping last n items . Create a dqueue of size n .When new item is inserted  it automatically deletes the oldest last item 
+import collections as c
+q=c.deque(maxlen=3)
+q.append(1)
+print(q)
+q.append(2)
+print(q)
+q.append(3)
+print(q)
+q.append(4)
+print(q)
+q.append(5)
+print(q)
+q.append(6)
+print(q)
+q.append(7)
+print(q)
